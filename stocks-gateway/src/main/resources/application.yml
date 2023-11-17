@@ -1,0 +1,20 @@
+server:
+  port: 1111
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    gateway:
+      routes:
+      - id: STOCK-SERVICE
+        uri:
+          http://localhost:1122/
+        predicates:
+        - Path=/service/**
+      - id: STOCK-CALCULATION
+        uri:
+          http://localhost:2211/
+        predicates:
+        - Path=/calc/**    
+          
+  

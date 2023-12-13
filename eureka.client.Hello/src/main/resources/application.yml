@@ -1,0 +1,6 @@
+server:
+  port: 2222
+demo:
+  props:
+     greetMsg: hello,how do you do?
+     hiMsg: hii,how are you?

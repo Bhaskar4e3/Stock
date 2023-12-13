@@ -16,6 +16,10 @@ import jakarta.servlet.http.HttpServletRequest;
 @EnableDiscoveryClient
 @RequestMapping("/ui")
 public class UiController {
+	@GetMapping(value = "/index1")
+	public String cal() {
+		return "index1";
+	}
 	@GetMapping(value = "/hi/")
 	public String say() {
 		return "hello";

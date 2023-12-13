@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.jpa.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.url'"
+  },
+  {
+    "name": "server.PORT",
+    "type": "java.lang.String",
+    "description": "A description for 'server.PORT'"
+  }
+]}

@@ -1,0 +1,17 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+        
+server:
+  port: 1000
+spring:
+  application:
+    name: ACTUATOE-CLIENT1
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:4321/
